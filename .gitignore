@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Environment
+.env
+
+# Large / generated astronomical data (never commit FITS or catalog snapshots)
+# Ignore contents but keep directories so nested .gitkeep files can be committed.
+data/raw/**
+data/interim/**
+data/processed/**
+!data/raw/**/
+!data/interim/**/
+!data/processed/**/
+!data/**/.gitkeep
+*.fits
+*.fits.gz
+
+# Trained weights and experiment outputs
+artifacts/models/**
+artifacts/experiments/**
+!artifacts/models/**/
+!artifacts/experiments/**/
+!artifacts/**/.gitkeep
+
+# Web
+apps/web/node_modules/
+apps/web/.next/
+apps/web/out/
+apps/web/next-env.d.ts
+apps/web/*.tsbuildinfo
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

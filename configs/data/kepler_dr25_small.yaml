@@ -1,0 +1,24 @@
+# Small, laptop-scale Kepler Q1-Q17 DR25 selection used for pipeline validation.
+# The whole DR25 KOI table (~8k rows) is cached once; subsets are drawn locally and
+# deterministically from that snapshot (see docs/data_contract.md).
+name: kepler_dr25_small
+
+catalog:
+  table: q1_q17_dr25_koi
+  label_rule: dr25_conservative_v1
+
+selection:
+  seed: 42
+  limit: 20                 # number of KOIs in the manifest (CLI --limit overrides)
+  stratify_by_label: true   # equal planet / false-positive counts where possible
+  include_excluded: false   # unresolved candidates and disposition conflicts are left out
+
+lightcurves:
+  mission: Kepler
+  author: Kepler            # Kepler SOC pipeline products (DR25 reprocessing, DATA_REL=25)
+  exptime_seconds: 1800     # long cadence only
+  flux_column: PDCSAP_FLUX
+  quarters: null            # null = every available long-cadence quarter
+  max_targets: 3            # stars downloaded by default (CLI --limit overrides)
+  max_products_per_target: 18
+  max_total_download_mb: 250

@@ -1,0 +1,32 @@
+# Pipeline-validation run: preprocessing + blind BLS search on a few real Kepler targets,
+# plus a Gaussian-noise demonstration. Not a scientific evaluation.
+name: bls_smoke
+seed: 42
+data_config: configs/data/kepler_dr25_small.yaml
+
+preprocessing:
+  quality_bitmask: 1130799        # lightkurve "default" Kepler bitmask, recorded explicitly
+  normalize: per_quarter_median
+  detrend:
+    enabled: true
+    method: running_median
+    window_days: 1.5              # >= ~4x the longest BLS duration searched (8 h)
+    gap_days: 0.5                 # never smooth across gaps longer than this
+    min_points: 10
+    mask_known_transits: false    # keep BLS input independent of the catalog ephemeris
+  clip_upper_sigma: 5.0           # clip only upward outliers; transits are never clipped
+
+bls:
+  min_period_days: 0.5
+  max_period_days: 50.0
+  min_transits: 3
+  durations_hours: [1.0, 2.0, 3.0, 4.0, 6.0, 8.0]
+  oversample: 3.0                 # ln-period step = min_duration / (oversample * baseline)
+  objective: likelihood
+  max_grid_size: 2000000
+  n_jobs: 0                       # 0 = all CPUs; does not affect results
+
+noise_demo:
+  enabled: true
+  severities: [0.0, 0.5, 1.0, 2.0]   # clean / low / moderate / high (see gaussian_noise.py)
+  seed: 42
