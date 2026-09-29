@@ -5,7 +5,7 @@ name: kepler_dr25_small
 
 catalog:
   table: q1_q17_dr25_koi
-  label_rule: dr25_conservative_v1
+  label_rule: dr25_clean_v2
 
 selection:
   seed: 42
@@ -21,4 +21,40 @@ lightcurves:
   quarters: null            # null = every available long-cadence quarter
   max_targets: 3            # stars downloaded by default (CLI --limit overrides)
   max_products_per_target: 18
-  max_total_download_mb: 250
+  max_total_download_mb: 1200     # covers the ~100-star dataset build (~6.5 MB per star)
+
+# Milestone 2 dataset build (scripts/build_dataset.py). ~100 stars, star-balanced within
+# each split; the three Milestone 1 stars are included as anchors (one 5-KOI system).
+dataset:
+  scale: small
+  splits_dir: data/splits
+  allow_download: true
+  stars:
+    seed: 42
+    all_eligible: false
+    n_stars: 100
+    include_kepids: [4049108, 5374854, 5689351]
+  preprocessing:
+    quality_bitmask: 1130799
+    normalize: per_quarter_median
+    detrend:
+      enabled: true
+      method: robust_spline
+      knot_spacing_days: 0.3       # chosen by the synthetic benchmark (docs/data_contract.md §6)
+      sigma_lower: 3.0
+      sigma_upper: 3.0
+      max_iter: 3
+      gap_days: 0.5
+      min_points: 10
+      mask_known_transits: true   # mask every catalogued KOI on the star during the trend fit
+      mask_duration_factor: 2.0
+    clip_upper_sigma: 5.0
+  representation:
+    global_bins: 2048
+    local_bins: 201
+    local_half_width_durations: 2.0
+    local_bin_width_durations: 0.16
+    min_valid_points: 1000
+    min_global_coverage: 0.5
+    min_transit_coverage: 0.5
+    max_mask_window_days: 2.0     # validated limit of masked detrending (D <= 24 h at factor 2)

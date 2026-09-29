@@ -60,7 +60,7 @@ def main() -> int:
             labelled["koi_disposition"], labelled["koi_pdisposition"], dropna=False
         ).to_string()
     )
-    print("\nDerived labels (rule dr25_conservative_v1):")
+    print("\nDerived labels (policy dr25_clean_v2):")
     print(labelled["label_name"].replace("", "excluded").value_counts().to_string())
     print("\nExclusion reasons:")
     print(labelled.loc[labelled["label"].isna(), "exclusion_reason"].value_counts().to_string())

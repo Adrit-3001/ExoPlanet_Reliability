@@ -1,0 +1,84 @@
+{
+  "name": "kic_grouped_v1",
+  "algorithm": "kic_stratified_shuffle_v1",
+  "created_at_utc": "2026-09-29T04:07:20+00:00",
+  "seed": 42,
+  "target_fractions": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "group_key": "kepid",
+  "stratification": "star stratum from train-eligible KOI labels: pos_only, neg_only, mixed, unlabelled_only",
+  "label_policy": "dr25_clean_v2",
+  "source_catalog": {
+    "table": "q1_q17_dr25_koi",
+    "query": "select kepid,kepoi_name,kepler_name,koi_disposition,koi_pdisposition,koi_disp_prov,koi_vet_stat,koi_score,koi_fpflag_nt,koi_fpflag_ss,koi_fpflag_co,koi_fpflag_ec,koi_period,koi_period_err1,koi_period_err2,koi_time0bk,koi_time0bk_err1,koi_time0bk_err2,koi_duration,koi_depth,koi_ror,koi_impact,koi_model_snr,koi_num_transits,koi_prad,koi_teq,koi_steff,koi_slogg,koi_srad,koi_kepmag,koi_quarters,koi_tce_plnt_num,koi_count,ra,dec from q1_q17_dr25_koi order by kepoi_name",
+    "retrieved_at_utc": "2026-09-28T03:29:02+00:00",
+    "sha256": "e89712bb926d18e0e773e34757781345f569a8ee0e9398c70c2135740ca01c4b",
+    "n_rows": 8054
+  },
+  "n_kics": 6923,
+  "n_kois": 8054,
+  "splits": {
+    "train": {
+      "n_kics": 4845,
+      "n_kois": 5607,
+      "n_train_eligible_kois": 4628,
+      "n_positive": 1850,
+      "n_negative": 2778,
+      "n_excluded": 979,
+      "positive_fraction": 0.3997,
+      "fraction_of_eligible_kois": 0.6971,
+      "stars_by_stratum": {
+        "neg_only": 2704,
+        "pos_only": 1333,
+        "unlabelled_only": 782,
+        "mixed": 26
+      }
+    },
+    "val": {
+      "n_kics": 1040,
+      "n_kois": 1228,
+      "n_train_eligible_kois": 1009,
+      "n_positive": 416,
+      "n_negative": 593,
+      "n_excluded": 219,
+      "positive_fraction": 0.4123,
+      "fraction_of_eligible_kois": 0.152,
+      "stars_by_stratum": {
+        "neg_only": 580,
+        "pos_only": 286,
+        "unlabelled_only": 168,
+        "mixed": 6
+      }
+    },
+    "test": {
+      "n_kics": 1038,
+      "n_kois": 1219,
+      "n_train_eligible_kois": 1002,
+      "n_positive": 409,
+      "n_negative": 593,
+      "n_excluded": 217,
+      "positive_fraction": 0.4082,
+      "fraction_of_eligible_kois": 0.1509,
+      "stars_by_stratum": {
+        "neg_only": 579,
+        "pos_only": 286,
+        "unlabelled_only": 168,
+        "mixed": 5
+      }
+    }
+  },
+  "leakage_checks": {
+    "shared_kic_train_val": 0,
+    "shared_kic_train_test": 0,
+    "shared_kic_val_test": 0,
+    "duplicate_koi_ids": 0
+  },
+  "files": {
+    "train.csv": "58d58920f70d6bd496e8e5fc886b134b031160ea75eb1a5e70b1c7d3ab47887b",
+    "val.csv": "e876604d8cf0f2c9551f941e2a03e292d9f1dbfa017170fdbc2ba7f86898d392",
+    "test.csv": "c6e31200562a676043faf0b73111b3f87e9cb4e3011484cf1fb481cd6a28823a"
+  }
+}

@@ -224,7 +224,7 @@ def test_preprocess_files_end_to_end(tmp_path, tmp_paths):
     files = _write_quarters(tmp_path)
     processed = preprocess_files(files, PreprocessingConfig(detrend=DetrendConfig(window_days=1.0)))
     f = processed.frame
-    assert np.isfinite(f.to_numpy()).all()
+    assert np.isfinite(f.select_dtypes("number").to_numpy()).all()
     assert set(f["quarter"]) == {1, 2}
     for q in (1, 2):  # both quarters on a common scale despite 5x level difference
         assert np.median(f.loc[f["quarter"] == q, "flux_norm"]) == pytest.approx(1.0, abs=1e-3)

@@ -121,6 +121,9 @@ def download_product(data_uri: str, destination: Path) -> None:
     """Download one MAST product to ``destination`` atomically."""
     from astroquery.mast import Observations  # deferred
 
+    # Safe only after the import: astropy has now created its own logger class for it.
+    logging.getLogger("astroquery").setLevel(logging.WARNING)
+
     destination.parent.mkdir(parents=True, exist_ok=True)
     tmp = destination.with_suffix(destination.suffix + ".part")
     status, msg, _url = Observations.download_file(data_uri, local_path=str(tmp), cache=False)

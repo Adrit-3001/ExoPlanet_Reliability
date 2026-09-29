@@ -10,7 +10,7 @@ import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from apps.api.routers import health, targets
+from apps.api.routers import datasets, health, targets
 from exoreliability import __version__
 from exoreliability.logging import setup_logging
 
@@ -33,3 +33,4 @@ app.add_middleware(
 )
 app.include_router(health.router)
 app.include_router(targets.router)
+app.include_router(datasets.router)

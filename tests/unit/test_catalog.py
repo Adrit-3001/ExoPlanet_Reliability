@@ -14,42 +14,7 @@ from exoreliability.data.archive import (
 )
 from exoreliability.data.cache import catalog_snapshot_path, kic_dirname
 from exoreliability.data.catalog import _allocate, assign_labels, ephemeris_from_row, select_subset
-
-# SYNTHETIC catalog rows covering every disposition combination seen in DR25.
-ROWS = [
-    ("K1.01", 1, "CONFIRMED", "CANDIDATE"),
-    ("K2.01", 2, "FALSE POSITIVE", "FALSE POSITIVE"),
-    ("K3.01", 3, "CANDIDATE", "CANDIDATE"),
-    ("K4.01", 4, "CONFIRMED", "FALSE POSITIVE"),
-    ("K5.01", 5, "FALSE POSITIVE", "CANDIDATE"),
-    ("K6.01", 6, None, "CANDIDATE"),
-]
-
-
-def _catalog() -> pd.DataFrame:
-    return pd.DataFrame(
-        ROWS, columns=["kepoi_name", "kepid", "koi_disposition", "koi_pdisposition"]
-    )
-
-
-def test_label_mapping_dr25_conservative_v1():
-    out = assign_labels(_catalog()).set_index("kepoi_name")
-    assert out.loc["K1.01", "label"] == 1 and out.loc["K1.01", "label_name"] == "planet"
-    assert out.loc["K2.01", "label"] == 0 and out.loc["K2.01", "label_name"] == "false_positive"
-    for name in ("K3.01", "K4.01", "K5.01", "K6.01"):
-        assert pd.isna(out.loc[name, "label"])
-    assert out.loc["K3.01", "exclusion_reason"] == "unresolved_candidate"
-    assert out.loc["K4.01", "exclusion_reason"] == "disposition_conflict"
-    assert out.loc["K5.01", "exclusion_reason"] == "disposition_conflict"
-    assert out.loc["K6.01", "exclusion_reason"] == "missing_disposition"
-    # Original dispositions are preserved alongside the derived label.
-    assert out.loc["K4.01", "koi_disposition"] == "CONFIRMED"
-    assert (out["label_rule"] == "dr25_conservative_v1").all()
-
-
-def test_label_mapping_requires_columns():
-    with pytest.raises(KeyError):
-        assign_labels(pd.DataFrame({"koi_disposition": ["CONFIRMED"]}))
+from exoreliability.data.labels import apply_label_policy
 
 
 def _big_catalog(n=200) -> pd.DataFrame:
@@ -78,7 +43,11 @@ def test_select_subset_is_deterministic_and_order_independent():
 
 
 def test_select_subset_is_stratified_and_excludes_unlabelled():
-    cat = pd.concat([_big_catalog(), assign_labels(_catalog())])
+    extra = pd.DataFrame(
+        [("K3.01", 3, "CANDIDATE", "CANDIDATE"), ("K4.01", 4, "CONFIRMED", "FALSE POSITIVE")],
+        columns=["kepoi_name", "kepid", "koi_disposition", "koi_pdisposition"],
+    )
+    cat = pd.concat([_big_catalog(), apply_label_policy(extra)])
     out = select_subset(cat, SelectionConfig(seed=1, limit=10))
     assert out["label"].notna().all()
     assert (out["label"] == 1).sum() == 5 and (out["label"] == 0).sum() == 5

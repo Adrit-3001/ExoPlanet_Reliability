@@ -1,0 +1,362 @@
+{
+  "created_at_utc": "2026-09-29T04:46:46+00:00",
+  "data": "SYNTHETIC light curves (evaluation.detrending) + real Kepler comparison",
+  "seeds": 10,
+  "acceptance": {
+    "mean_abs_max": 0.02,
+    "rms_max": 0.05,
+    "cases": [
+      "quiet",
+      "low_variability",
+      "moderate_variability",
+      "m1_regression",
+      "strong_variability",
+      "strong_long_transit",
+      "strong_gaps_near_transits"
+    ]
+  },
+  "dataset_method": {
+    "enabled": true,
+    "method": "robust_spline",
+    "window_days": 1.5,
+    "knot_spacing_days": 0.3,
+    "sigma_lower": 3.0,
+    "sigma_upper": 3.0,
+    "max_iter": 3,
+    "gap_days": 0.5,
+    "min_points": 10,
+    "mask_known_transits": true,
+    "mask_duration_factor": 2.0
+  },
+  "robust_spline_masked_passes_all": true,
+  "synthetic_summary": [
+    {
+      "case": "extreme_fast_rotator",
+      "method": "robust_spline_blind",
+      "mean_relative_depth_error": 0.72036,
+      "rms_relative_depth_error": 0.77251,
+      "max_abs_relative_depth_error": 0.93893,
+      "trend_error_rms_ppm": 921.56471,
+      "acceptance_case": false,
+      "passes": false
+    },
+    {
+      "case": "extreme_fast_rotator",
+      "method": "robust_spline_masked",
+      "mean_relative_depth_error": 0.44613,
+      "rms_relative_depth_error": 0.58206,
+      "max_abs_relative_depth_error": 0.89568,
+      "trend_error_rms_ppm": 3151.03799,
+      "acceptance_case": false,
+      "passes": false
+    },
+    {
+      "case": "extreme_fast_rotator",
+      "method": "running_median_blind",
+      "mean_relative_depth_error": 1.5974,
+      "rms_relative_depth_error": 1.60437,
+      "max_abs_relative_depth_error": 1.85033,
+      "trend_error_rms_ppm": 6538.40278,
+      "acceptance_case": false,
+      "passes": false
+    },
+    {
+      "case": "extreme_fast_rotator",
+      "method": "running_median_masked",
+      "mean_relative_depth_error": 2.35795,
+      "rms_relative_depth_error": 2.36378,
+      "max_abs_relative_depth_error": 2.61381,
+      "trend_error_rms_ppm": 6598.47049,
+      "acceptance_case": false,
+      "passes": false
+    },
+    {
+      "case": "low_variability",
+      "method": "robust_spline_blind",
+      "mean_relative_depth_error": -0.00449,
+      "rms_relative_depth_error": 0.00561,
+      "max_abs_relative_depth_error": 0.00948,
+      "trend_error_rms_ppm": 26.85897,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "low_variability",
+      "method": "robust_spline_masked",
+      "mean_relative_depth_error": 0.0008,
+      "rms_relative_depth_error": 0.00415,
+      "max_abs_relative_depth_error": 0.00715,
+      "trend_error_rms_ppm": 27.06976,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "low_variability",
+      "method": "running_median_blind",
+      "mean_relative_depth_error": -0.01352,
+      "rms_relative_depth_error": 0.01372,
+      "max_abs_relative_depth_error": 0.01745,
+      "trend_error_rms_ppm": 24.68798,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "low_variability",
+      "method": "running_median_masked",
+      "mean_relative_depth_error": 0.00297,
+      "rms_relative_depth_error": 0.00436,
+      "max_abs_relative_depth_error": 0.00775,
+      "trend_error_rms_ppm": 26.19522,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "m1_regression",
+      "method": "robust_spline_blind",
+      "mean_relative_depth_error": -0.00466,
+      "rms_relative_depth_error": 0.00571,
+      "max_abs_relative_depth_error": 0.00978,
+      "trend_error_rms_ppm": 26.8664,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "m1_regression",
+      "method": "robust_spline_masked",
+      "mean_relative_depth_error": 0.00087,
+      "rms_relative_depth_error": 0.00424,
+      "max_abs_relative_depth_error": 0.00733,
+      "trend_error_rms_ppm": 27.07161,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "m1_regression",
+      "method": "running_median_blind",
+      "mean_relative_depth_error": -0.29788,
+      "rms_relative_depth_error": 0.29801,
+      "max_abs_relative_depth_error": 0.30898,
+      "trend_error_rms_ppm": 137.60581,
+      "acceptance_case": true,
+      "passes": false
+    },
+    {
+      "case": "m1_regression",
+      "method": "running_median_masked",
+      "mean_relative_depth_error": -0.01462,
+      "rms_relative_depth_error": 0.01688,
+      "max_abs_relative_depth_error": 0.03135,
+      "trend_error_rms_ppm": 269.57657,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "moderate_variability",
+      "method": "robust_spline_blind",
+      "mean_relative_depth_error": -0.00462,
+      "rms_relative_depth_error": 0.0057,
+      "max_abs_relative_depth_error": 0.0096,
+      "trend_error_rms_ppm": 26.86225,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "moderate_variability",
+      "method": "robust_spline_masked",
+      "mean_relative_depth_error": 0.00048,
+      "rms_relative_depth_error": 0.00401,
+      "max_abs_relative_depth_error": 0.00653,
+      "trend_error_rms_ppm": 27.08398,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "moderate_variability",
+      "method": "running_median_blind",
+      "mean_relative_depth_error": -0.22427,
+      "rms_relative_depth_error": 0.22434,
+      "max_abs_relative_depth_error": 0.23124,
+      "trend_error_rms_ppm": 150.6513,
+      "acceptance_case": true,
+      "passes": false
+    },
+    {
+      "case": "moderate_variability",
+      "method": "running_median_masked",
+      "mean_relative_depth_error": -0.02482,
+      "rms_relative_depth_error": 0.02761,
+      "max_abs_relative_depth_error": 0.04701,
+      "trend_error_rms_ppm": 220.52966,
+      "acceptance_case": true,
+      "passes": false
+    },
+    {
+      "case": "quiet",
+      "method": "robust_spline_blind",
+      "mean_relative_depth_error": -0.00449,
+      "rms_relative_depth_error": 0.00561,
+      "max_abs_relative_depth_error": 0.00949,
+      "trend_error_rms_ppm": 26.86139,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "quiet",
+      "method": "robust_spline_masked",
+      "mean_relative_depth_error": 0.00078,
+      "rms_relative_depth_error": 0.00415,
+      "max_abs_relative_depth_error": 0.00714,
+      "trend_error_rms_ppm": 27.06721,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "quiet",
+      "method": "running_median_blind",
+      "mean_relative_depth_error": -0.01097,
+      "rms_relative_depth_error": 0.01112,
+      "max_abs_relative_depth_error": 0.01375,
+      "trend_error_rms_ppm": 16.00727,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "quiet",
+      "method": "running_median_masked",
+      "mean_relative_depth_error": 0.00054,
+      "rms_relative_depth_error": 0.00182,
+      "max_abs_relative_depth_error": 0.00409,
+      "trend_error_rms_ppm": 14.97901,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "strong_gaps_near_transits",
+      "method": "robust_spline_blind",
+      "mean_relative_depth_error": -0.00577,
+      "rms_relative_depth_error": 0.01447,
+      "max_abs_relative_depth_error": 0.02323,
+      "trend_error_rms_ppm": 56.13227,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "strong_gaps_near_transits",
+      "method": "robust_spline_masked",
+      "mean_relative_depth_error": 0.01677,
+      "rms_relative_depth_error": 0.02054,
+      "max_abs_relative_depth_error": 0.03193,
+      "trend_error_rms_ppm": 74.98515,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "strong_gaps_near_transits",
+      "method": "running_median_blind",
+      "mean_relative_depth_error": 0.19032,
+      "rms_relative_depth_error": 0.19307,
+      "max_abs_relative_depth_error": 0.25394,
+      "trend_error_rms_ppm": 1718.94691,
+      "acceptance_case": true,
+      "passes": false
+    },
+    {
+      "case": "strong_gaps_near_transits",
+      "method": "running_median_masked",
+      "mean_relative_depth_error": 0.32056,
+      "rms_relative_depth_error": 0.32555,
+      "max_abs_relative_depth_error": 0.40492,
+      "trend_error_rms_ppm": 2166.38982,
+      "acceptance_case": true,
+      "passes": false
+    },
+    {
+      "case": "strong_long_transit",
+      "method": "robust_spline_blind",
+      "mean_relative_depth_error": -0.97705,
+      "rms_relative_depth_error": 0.97716,
+      "max_abs_relative_depth_error": 0.99423,
+      "trend_error_rms_ppm": 44.86402,
+      "acceptance_case": true,
+      "passes": false
+    },
+    {
+      "case": "strong_long_transit",
+      "method": "robust_spline_masked",
+      "mean_relative_depth_error": 0.00814,
+      "rms_relative_depth_error": 0.03944,
+      "max_abs_relative_depth_error": 0.06405,
+      "trend_error_rms_ppm": 158.87593,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "strong_long_transit",
+      "method": "running_median_blind",
+      "mean_relative_depth_error": -0.7619,
+      "rms_relative_depth_error": 0.76307,
+      "max_abs_relative_depth_error": 0.8458,
+      "trend_error_rms_ppm": 1264.73915,
+      "acceptance_case": true,
+      "passes": false
+    },
+    {
+      "case": "strong_long_transit",
+      "method": "running_median_masked",
+      "mean_relative_depth_error": -0.25513,
+      "rms_relative_depth_error": 0.259,
+      "max_abs_relative_depth_error": 0.33556,
+      "trend_error_rms_ppm": 1804.27222,
+      "acceptance_case": true,
+      "passes": false
+    },
+    {
+      "case": "strong_variability",
+      "method": "robust_spline_blind",
+      "mean_relative_depth_error": -0.00275,
+      "rms_relative_depth_error": 0.00572,
+      "max_abs_relative_depth_error": 0.00869,
+      "trend_error_rms_ppm": 28.61634,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "strong_variability",
+      "method": "robust_spline_masked",
+      "mean_relative_depth_error": 0.00451,
+      "rms_relative_depth_error": 0.00891,
+      "max_abs_relative_depth_error": 0.02259,
+      "trend_error_rms_ppm": 33.11705,
+      "acceptance_case": true,
+      "passes": true
+    },
+    {
+      "case": "strong_variability",
+      "method": "running_median_blind",
+      "mean_relative_depth_error": -0.36004,
+      "rms_relative_depth_error": 0.3606,
+      "max_abs_relative_depth_error": 0.38775,
+      "trend_error_rms_ppm": 1253.17347,
+      "acceptance_case": true,
+      "passes": false
+    },
+    {
+      "case": "strong_variability",
+      "method": "running_median_masked",
+      "mean_relative_depth_error": 0.16326,
+      "rms_relative_depth_error": 0.16731,
+      "max_abs_relative_depth_error": 0.20829,
+      "trend_error_rms_ppm": 1535.00096,
+      "acceptance_case": true,
+      "passes": false
+    }
+  ],
+  "real_comparison": {
+    "n_kois": 138,
+    "median_ratio_new_over_old": 1.0394330132860743,
+    "median_ratio_old_over_catalog": 0.8966043977641366,
+    "median_ratio_new_over_catalog": 0.9664626735195602,
+    "fraction_new_deeper_than_old": 0.8260869565217391
+  },
+  "figure": "artifacts/figures/detrending_synthetic_cases.png"
+}

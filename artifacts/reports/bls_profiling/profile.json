@@ -1,0 +1,147 @@
+{
+  "created_at_utc": "2026-09-29T04:33:01+00:00",
+  "kepid": 5374854,
+  "n_points": 51747,
+  "baseline_days": 1459.488902093428,
+  "full_grid_periods": 483928,
+  "subgrid_stride": 20,
+  "subgrid_periods": 24197,
+  "cpu_count": 16,
+  "config": {
+    "min_period_days": 0.5,
+    "max_period_days": 50.0,
+    "min_transits": 3,
+    "durations_hours": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      6.0,
+      8.0
+    ],
+    "oversample": 3.0,
+    "objective": "likelihood",
+    "max_grid_size": 2000000,
+    "n_jobs": 0
+  },
+  "single_process_seconds": {
+    "subgrid_half": 6.15693482000006,
+    "subgrid": 11.883835118000206
+  },
+  "seconds_per_1000_periods_single": 0.4911284505517298,
+  "extrapolated_full_grid_single_seconds": 237.6708088185975,
+  "cprofile_top_tottime": [
+    {
+      "function": "methods.py:54(bls_fast)",
+      "calls": 1,
+      "tottime_s": 12.557,
+      "cumtime_s": 12.557
+    },
+    {
+      "function": "~:0(<method 'partition' of 'numpy.ndarray' objects>)",
+      "calls": 1,
+      "tottime_s": 0.001,
+      "cumtime_s": 0.001
+    },
+    {
+      "function": "~:0(<method 'flatten' of 'numpy.ndarray' objects>)",
+      "calls": 1,
+      "tottime_s": 0.0,
+      "cumtime_s": 0.0
+    },
+    {
+      "function": "core.py:248(power)",
+      "calls": 1,
+      "tottime_s": 0.0,
+      "cumtime_s": 12.559
+    },
+    {
+      "function": "core.py:694(_validate_period_and_duration)",
+      "calls": 1,
+      "tottime_s": 0.0,
+      "cumtime_s": 0.0
+    },
+    {
+      "function": "~:0(<method 'reduce' of 'numpy.ufunc' objects>)",
+      "calls": 5,
+      "tottime_s": 0.0,
+      "cumtime_s": 0.0
+    },
+    {
+      "function": "core.py:729(_format_results)",
+      "calls": 1,
+      "tottime_s": 0.0,
+      "cumtime_s": 0.0
+    },
+    {
+      "function": "_function_base_impl.py:4003(_median)",
+      "calls": 1,
+      "tottime_s": 0.0,
+      "cumtime_s": 0.001
+    }
+  ],
+  "durations_scaling_seconds": {
+    "1": 9.988493508000374,
+    "3": 10.933518315000128,
+    "6": 12.206050654000137
+  },
+  "astropy_oversample_seconds": {
+    "5": {
+      "seconds": 10.169187730999965,
+      "best_period": 23.781967187487414
+    },
+    "10": {
+      "seconds": 11.896752390000074,
+      "best_period": 23.781967187487414
+    },
+    "20": {
+      "seconds": 15.680275027999869,
+      "best_period": 23.781967187487414
+    }
+  },
+  "worker_scaling": {
+    "1": {
+      "seconds": 12.676573147,
+      "speedup": 0.9374643273219782,
+      "identical_to_single": true
+    },
+    "2": {
+      "seconds": 8.160484064999764,
+      "speedup": 1.4562659547329868,
+      "identical_to_single": true
+    },
+    "4": {
+      "seconds": 4.593340802000057,
+      "speedup": 2.5871877638222887,
+      "identical_to_single": true
+    },
+    "6": {
+      "seconds": 3.6740269950000766,
+      "speedup": 3.234553021568084,
+      "identical_to_single": true
+    },
+    "8": {
+      "seconds": 3.416628545000094,
+      "speedup": 3.4782344529056433,
+      "identical_to_single": true
+    },
+    "10": {
+      "seconds": 3.0499749609998617,
+      "speedup": 3.8963713702437657,
+      "identical_to_single": true
+    },
+    "12": {
+      "seconds": 2.7171956140000475,
+      "speedup": 4.373566281636136,
+      "identical_to_single": true
+    },
+    "16": {
+      "seconds": 2.4994443850000607,
+      "speedup": 4.754590735972674,
+      "identical_to_single": true
+    }
+  },
+  "compute_stats_seconds": 0.05625977799991233,
+  "full_run_seconds_default_n_jobs": 46.91789993600014,
+  "full_run_best_period": 23.783098790103576
+}

@@ -1,0 +1,501 @@
+{
+  "created_at_utc": "2026-09-29T04:51:05+00:00",
+  "dataset": "kepler_dr25_small",
+  "dataset_created_at_utc": "2026-09-29T04:50:33+00:00",
+  "shapes": {
+    "global_flux.npy": [
+      130,
+      2048
+    ],
+    "global_count.npy": [
+      130,
+      2048
+    ],
+    "local_flux.npy": [
+      130,
+      201
+    ],
+    "local_count.npy": [
+      130,
+      201
+    ]
+  },
+  "counts": {
+    "n_examples": 130,
+    "n_unique_kics": 103,
+    "n_trainable": 125,
+    "n_positive": 73,
+    "n_negative": 52,
+    "n_multi_koi_stars": 17,
+    "n_examples_on_multi_koi_stars": 44,
+    "by_split": {
+      "train": {
+        "n_trainable": 79,
+        "n_positive": 43,
+        "n_negative": 36,
+        "n_kics": 72
+      },
+      "val": {
+        "n_trainable": 23,
+        "n_positive": 15,
+        "n_negative": 8,
+        "n_kics": 16
+      },
+      "test": {
+        "n_trainable": 23,
+        "n_positive": 15,
+        "n_negative": 8,
+        "n_kics": 15
+      }
+    },
+    "kois_per_kic": {
+      "1": 86,
+      "2": 11,
+      "3": 4,
+      "5": 2
+    }
+  },
+  "leakage_checks": {
+    "shared_kic_train_val": 0,
+    "shared_kic_train_test": 0,
+    "shared_kic_val_test": 0,
+    "duplicate_koi_ids": 0,
+    "examples_with_split_differing_from_manifest": 0
+  },
+  "data_quality": {
+    "stars_attempted": 103,
+    "stars_failed_download_or_missing": 0,
+    "stars_failed_preprocessing": 0,
+    "example_status": {
+      "ok": 129,
+      "detrend_mask_too_long": 1
+    },
+    "examples_excluded_by_label_policy": {
+      "unresolved_candidate": 4
+    },
+    "examples_near_coverage_threshold": [
+      {
+        "kepoi_name": "K01788.02",
+        "global_coverage": 0.517,
+        "transit_coverage": 1.0
+      },
+      {
+        "kepoi_name": "K06166.02",
+        "global_coverage": 0.502,
+        "transit_coverage": 0.536
+      }
+    ],
+    "population_exclusions": {
+      "unresolved_candidate": 1358,
+      "disposition_conflict": 57
+    },
+    "population_labelled_missing_depth": 55,
+    "population_labelled_missing_ephemeris": 0
+  },
+  "bias": {
+    "population_train_eligible": [
+      {
+        "variable": "koi_count",
+        "description": "KOIs on the star",
+        "n_pos": 2675,
+        "n_neg": 3964,
+        "missing_pos": 0,
+        "missing_neg": 0,
+        "median_pos": 2.0,
+        "median_neg": 1.0,
+        "p10_pos": 1.0,
+        "p90_pos": 4.0,
+        "p10_neg": 1.0,
+        "p90_neg": 1.0,
+        "ks_statistic": 0.4652,
+        "univariate_auc": 0.737,
+        "separability": 0.737
+      },
+      {
+        "variable": "koi_prad",
+        "description": "Planet radius [R_earth]",
+        "n_pos": 2674,
+        "n_neg": 3910,
+        "missing_pos": 1,
+        "missing_neg": 54,
+        "median_pos": 2.15,
+        "median_neg": 17.065,
+        "p10_pos": 1.15,
+        "p90_pos": 4.237,
+        "p10_neg": 0.89,
+        "p90_neg": 88.667,
+        "ks_statistic": 0.5164,
+        "univariate_auc": 0.3041,
+        "separability": 0.6959
+      },
+      {
+        "variable": "koi_impact",
+        "description": "Impact parameter",
+        "n_pos": 2674,
+        "n_neg": 3910,
+        "missing_pos": 1,
+        "missing_neg": 54,
+        "median_pos": 0.41,
+        "median_neg": 0.729,
+        "p10_pos": 0.022,
+        "p90_pos": 0.9057,
+        "p10_neg": 0.113,
+        "p90_neg": 1.248,
+        "ks_statistic": 0.3158,
+        "univariate_auc": 0.3048,
+        "separability": 0.6952
+      },
+      {
+        "variable": "koi_period",
+        "description": "Orbital period [d]",
+        "n_pos": 2675,
+        "n_neg": 3964,
+        "missing_pos": 0,
+        "missing_neg": 0,
+        "median_pos": 11.1896,
+        "median_neg": 3.932,
+        "p10_pos": 2.7618,
+        "p90_pos": 60.2291,
+        "p10_neg": 0.7395,
+        "p90_neg": 102.2366,
+        "ks_statistic": 0.3384,
+        "univariate_auc": 0.6578,
+        "separability": 0.6578
+      },
+      {
+        "variable": "koi_steff",
+        "description": "Stellar Teff [K]",
+        "n_pos": 2674,
+        "n_neg": 3910,
+        "missing_pos": 1,
+        "missing_neg": 54,
+        "median_pos": 5618.0,
+        "median_neg": 5853.0,
+        "p10_pos": 4541.6,
+        "p90_pos": 6164.0,
+        "p10_neg": 4918.9,
+        "p90_neg": 6602.0,
+        "ks_statistic": 0.2038,
+        "univariate_auc": 0.3683,
+        "separability": 0.6317
+      },
+      {
+        "variable": "koi_depth",
+        "description": "Transit depth [ppm]",
+        "n_pos": 2674,
+        "n_neg": 3910,
+        "missing_pos": 1,
+        "missing_neg": 54,
+        "median_pos": 446.75,
+        "median_neg": 807.5,
+        "p10_pos": 114.7,
+        "p90_pos": 1590.99,
+        "p10_neg": 66.47,
+        "p90_neg": 202507.7,
+        "ks_statistic": 0.3418,
+        "univariate_auc": 0.401,
+        "separability": 0.599
+      },
+      {
+        "variable": "koi_model_snr",
+        "description": "Model SNR",
+        "n_pos": 2674,
+        "n_neg": 3910,
+        "missing_pos": 1,
+        "missing_neg": 54,
+        "median_pos": 28.6,
+        "median_neg": 47.7,
+        "p10_pos": 14.4,
+        "p90_pos": 109.09,
+        "p10_neg": 9.8,
+        "p90_neg": 1701.29,
+        "ks_statistic": 0.3028,
+        "univariate_auc": 0.4137,
+        "separability": 0.5863
+      },
+      {
+        "variable": "koi_srad",
+        "description": "Stellar radius [R_sun]",
+        "n_pos": 2674,
+        "n_neg": 3910,
+        "missing_pos": 1,
+        "missing_neg": 54,
+        "median_pos": 0.963,
+        "median_neg": 1.005,
+        "p10_pos": 0.6536,
+        "p90_pos": 1.4821,
+        "p10_neg": 0.722,
+        "p90_neg": 2.683,
+        "ks_statistic": 0.1665,
+        "univariate_auc": 0.42,
+        "separability": 0.58
+      },
+      {
+        "variable": "koi_duration",
+        "description": "Transit duration [h]",
+        "n_pos": 2675,
+        "n_neg": 3964,
+        "missing_pos": 0,
+        "missing_neg": 0,
+        "median_pos": 3.471,
+        "median_neg": 4.0281,
+        "p10_pos": 1.7459,
+        "p90_pos": 7.3395,
+        "p10_neg": 1.6443,
+        "p90_neg": 13.39,
+        "ks_statistic": 0.1218,
+        "univariate_auc": 0.4354,
+        "separability": 0.5646
+      },
+      {
+        "variable": "koi_kepmag",
+        "description": "Kepler magnitude",
+        "n_pos": 2675,
+        "n_neg": 3963,
+        "missing_pos": 0,
+        "missing_neg": 1,
+        "median_pos": 14.621,
+        "median_neg": 14.486,
+        "p10_pos": 12.7208,
+        "p90_pos": 15.714,
+        "p10_neg": 12.3186,
+        "p90_neg": 15.805,
+        "ks_statistic": 0.0781,
+        "univariate_auc": 0.5186,
+        "separability": 0.5186
+      }
+    ],
+    "dataset_trainable": [
+      {
+        "variable": "koi_steff",
+        "description": "Stellar Teff [K]",
+        "n_pos": 73,
+        "n_neg": 51,
+        "missing_pos": 0,
+        "missing_neg": 1,
+        "median_pos": 5497.0,
+        "median_neg": 5949.0,
+        "p10_pos": 4857.8,
+        "p90_pos": 6073.4,
+        "p10_neg": 5361.0,
+        "p90_neg": 6569.0,
+        "ks_statistic": 0.383,
+        "univariate_auc": 0.2565,
+        "separability": 0.7435
+      },
+      {
+        "variable": "koi_count",
+        "description": "KOIs on the star",
+        "n_pos": 73,
+        "n_neg": 52,
+        "missing_pos": 0,
+        "missing_neg": 0,
+        "median_pos": 2.0,
+        "median_neg": 1.0,
+        "p10_pos": 1.0,
+        "p90_pos": 5.0,
+        "p10_neg": 1.0,
+        "p90_neg": 1.0,
+        "ks_statistic": 0.4492,
+        "univariate_auc": 0.7329,
+        "separability": 0.7329
+      },
+      {
+        "variable": "koi_impact",
+        "description": "Impact parameter",
+        "n_pos": 73,
+        "n_neg": 51,
+        "missing_pos": 0,
+        "missing_neg": 1,
+        "median_pos": 0.531,
+        "median_neg": 0.762,
+        "p10_pos": 0.0252,
+        "p90_pos": 0.9182,
+        "p10_neg": 0.312,
+        "p90_neg": 1.269,
+        "ks_statistic": 0.4118,
+        "univariate_auc": 0.2742,
+        "separability": 0.7258
+      },
+      {
+        "variable": "koi_period",
+        "description": "Orbital period [d]",
+        "n_pos": 73,
+        "n_neg": 52,
+        "missing_pos": 0,
+        "missing_neg": 0,
+        "median_pos": 13.6462,
+        "median_neg": 3.3828,
+        "p10_pos": 2.512,
+        "p90_pos": 75.8707,
+        "p10_neg": 0.9204,
+        "p90_neg": 177.5501,
+        "ks_statistic": 0.421,
+        "univariate_auc": 0.6884,
+        "separability": 0.6884
+      },
+      {
+        "variable": "koi_prad",
+        "description": "Planet radius [R_earth]",
+        "n_pos": 73,
+        "n_neg": 51,
+        "missing_pos": 0,
+        "missing_neg": 1,
+        "median_pos": 2.09,
+        "median_neg": 15.57,
+        "p10_pos": 1.182,
+        "p90_pos": 4.21,
+        "p10_neg": 0.81,
+        "p90_neg": 78.6,
+        "ks_statistic": 0.5157,
+        "univariate_auc": 0.3257,
+        "separability": 0.6743
+      },
+      {
+        "variable": "koi_depth",
+        "description": "Transit depth [ppm]",
+        "n_pos": 73,
+        "n_neg": 51,
+        "missing_pos": 0,
+        "missing_neg": 1,
+        "median_pos": 550.5,
+        "median_neg": 1434.4,
+        "p10_pos": 103.8,
+        "p90_pos": 1353.36,
+        "p10_neg": 69.5,
+        "p90_neg": 129526.0,
+        "ks_statistic": 0.4276,
+        "univariate_auc": 0.3699,
+        "separability": 0.6301
+      },
+      {
+        "variable": "koi_model_snr",
+        "description": "Model SNR",
+        "n_pos": 73,
+        "n_neg": 51,
+        "missing_pos": 0,
+        "missing_neg": 1,
+        "median_pos": 33.2,
+        "median_neg": 86.1,
+        "p10_pos": 12.84,
+        "p90_pos": 76.12,
+        "p10_neg": 11.5,
+        "p90_neg": 1412.4,
+        "ks_statistic": 0.4472,
+        "univariate_auc": 0.3728,
+        "separability": 0.6272
+      },
+      {
+        "variable": "koi_srad",
+        "description": "Stellar radius [R_sun]",
+        "n_pos": 73,
+        "n_neg": 51,
+        "missing_pos": 0,
+        "missing_neg": 1,
+        "median_pos": 0.881,
+        "median_neg": 1.0,
+        "p10_pos": 0.699,
+        "p90_pos": 1.424,
+        "p10_neg": 0.764,
+        "p90_neg": 1.718,
+        "ks_statistic": 0.299,
+        "univariate_auc": 0.3834,
+        "separability": 0.6166
+      },
+      {
+        "variable": "koi_duration",
+        "description": "Transit duration [h]",
+        "n_pos": 73,
+        "n_neg": 52,
+        "missing_pos": 0,
+        "missing_neg": 0,
+        "median_pos": 3.167,
+        "median_neg": 3.768,
+        "p10_pos": 1.9469,
+        "p90_pos": 8.5752,
+        "p10_neg": 2.2721,
+        "p90_neg": 12.3497,
+        "ks_statistic": 0.147,
+        "univariate_auc": 0.4189,
+        "separability": 0.5811
+      },
+      {
+        "variable": "koi_kepmag",
+        "description": "Kepler magnitude",
+        "n_pos": 73,
+        "n_neg": 52,
+        "missing_pos": 0,
+        "missing_neg": 0,
+        "median_pos": 14.55,
+        "median_neg": 14.23,
+        "p10_pos": 12.6448,
+        "p90_pos": 15.9084,
+        "p10_neg": 13.1692,
+        "p90_neg": 15.6402,
+        "ks_statistic": 0.2313,
+        "univariate_auc": 0.5507,
+        "separability": 0.5507
+      }
+    ],
+    "negative_fp_flag_fractions_population": {
+      "koi_fpflag_nt": 0.2447,
+      "koi_fpflag_ss": 0.5257,
+      "koi_fpflag_co": 0.4392,
+      "koi_fpflag_ec": 0.274
+    }
+  },
+  "multi_koi_contamination": {
+    "n_examples_on_multi_koi_stars": 44,
+    "median_max_other_signal_relative_to_depth": 0.07618677179665684,
+    "n_over_0.25_of_own_depth": 5,
+    "examples_over_0.25": [
+      {
+        "kepoi_name": "K01788.02",
+        "koi_period": 369.069,
+        "contam_max_relative_to_depth": 3.121,
+        "contam_in_transit_expected_ppm": 0.0
+      },
+      {
+        "kepoi_name": "K00896.03",
+        "koi_period": 28.867,
+        "contam_max_relative_to_depth": 0.963,
+        "contam_in_transit_expected_ppm": 30.717
+      },
+      {
+        "kepoi_name": "K03338.01",
+        "koi_period": 10.994,
+        "contam_max_relative_to_depth": 0.864,
+        "contam_in_transit_expected_ppm": 0.0
+      },
+      {
+        "kepoi_name": "K03338.02",
+        "koi_period": 10.994,
+        "contam_max_relative_to_depth": 1.157,
+        "contam_in_transit_expected_ppm": 0.0
+      },
+      {
+        "kepoi_name": "K01422.04",
+        "koi_period": 63.335,
+        "contam_max_relative_to_depth": 0.283,
+        "contam_in_transit_expected_ppm": 25.38
+      }
+    ],
+    "max_in_transit_expected_ppm": 91.04536082474226,
+    "figure_kois": [
+      "K01788.01",
+      "K01788.02",
+      "K03338.01",
+      "K03338.02",
+      "K00896.01",
+      "K00896.02",
+      "K00896.03",
+      "K01422.01"
+    ]
+  },
+  "figures": {
+    "class_balance": "artifacts/reports/kepler_dr25_small/class_balance.png",
+    "distributions": "artifacts/reports/kepler_dr25_small/distributions.png",
+    "example_views": "artifacts/reports/kepler_dr25_small/example_views.png",
+    "multi_koi_contamination": "artifacts/reports/kepler_dr25_small/multi_koi_contamination.png"
+  }
+}

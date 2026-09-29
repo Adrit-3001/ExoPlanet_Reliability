@@ -107,6 +107,27 @@ def client(tmp_path_factory):
         },
     )
 
+    # A built-dataset summary (SYNTHETIC numbers) for the /datasets endpoints.
+    split_counts = {"n": 2, "n_positive": 1, "n_negative": 1, "n_kics": 2}
+    write_json_atomic(
+        paths.datasets / "synthetic_ds" / "dataset.json",
+        {
+            "name": "synthetic_ds",
+            "scale": "smoke",
+            "created_at_utc": "2000-01-01T00:00:00+00:00",
+            "label_policy": "dr25_clean_v2",
+            "splits": {"name": "kic_grouped_v1"},
+            "shapes": {"global_flux.npy": [6, 2048]},
+            "counts": {
+                "n_examples": 6,
+                "n_trainable": 6,
+                "n_stars_ok": 6,
+                "example_status": {"ok": 6},
+                "trainable_by_split": {s: split_counts for s in ("train", "val", "test")},
+            },
+        },
+    )
+
     app.dependency_overrides[get_repository] = lambda: TargetRepository(paths)
     with TestClient(app) as c:
         yield c
@@ -205,3 +226,13 @@ def test_parse_target_id():
     assert parse_target_id("kic_010811496") == 10811496
     with pytest.raises(ValueError):
         parse_target_id("TIC 123")
+
+
+def test_datasets_endpoints(client):
+    listing = client.get("/datasets").json()["datasets"]
+    assert [d["name"] for d in listing] == ["synthetic_ds"]
+    one = client.get("/datasets/synthetic_ds").json()
+    assert one["trainable_by_split"]["val"]["n_positive"] == 1
+    assert one["label_policy"] == "dr25_clean_v2"
+    assert client.get("/datasets/missing").status_code == 404
+    assert client.get("/datasets/bad name!").status_code == 422

@@ -1,0 +1,10 @@
+# Star-level (KIC-grouped) split of the entire DR25 KOI snapshot. Generated once by
+# scripts/create_splits.py into data/splits/; replacing it requires --overwrite.
+# Every dataset scale (smoke/small/full) reuses this assignment, so a star never
+# changes split when the dataset grows.
+name: kic_grouped_v1
+seed: 42
+label_policy: dr25_clean_v2
+train_fraction: 0.70
+val_fraction: 0.15
+test_fraction: 0.15

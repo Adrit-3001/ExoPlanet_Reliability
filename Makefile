@@ -5,15 +5,15 @@ EXP_CONFIG ?= configs/experiments/bls_smoke.yaml
 LIMIT_KOIS ?= 20
 LIMIT_TARGETS ?= 3
 
-.PHONY: help install install-web catalog lightcurves preprocess bls pipeline test lint format typecheck api web web-lint web-build check
+.PHONY: help install install-web catalog lightcurves preprocess bls pipeline splits dataset-smoke dataset-small dataset-report detrend-eval profile-bls test lint format typecheck api web web-lint web-build check
 
 help:
 	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | sed 's/:.*##/\t/'
 
-install: ## Create .venv and install the package with dev tools
+install: ## Create .venv and install the package with dev tools and PyTorch
 	python3 -m venv .venv
 	$(PY) -m pip install --upgrade pip
-	$(PY) -m pip install -e ".[dev]"
+	$(PY) -m pip install -e ".[dev,ml]"
 
 install-web: ## Install frontend dependencies (needs Node >= 20 on PATH)
 	cd apps/web && npm install
@@ -31,6 +31,24 @@ bls: ## Blind BLS search + Gaussian-noise demonstration (~1 min per target per s
 	$(PY) scripts/run_bls.py --config $(EXP_CONFIG)
 
 pipeline: catalog lightcurves preprocess bls ## Full Milestone 1 smoke pipeline on real data
+
+splits: ## Create KIC-grouped train/val/test splits (refuses to overwrite existing ones)
+	$(PY) scripts/create_splits.py
+
+dataset-smoke: ## Build the 9-star smoke ML dataset
+	$(PY) scripts/build_dataset.py --config configs/data/kepler_dr25_smoke.yaml --overwrite
+
+dataset-small: ## Build the ~100-star small ML dataset (~700 MB download on first run)
+	$(PY) scripts/build_dataset.py --config configs/data/kepler_dr25_small.yaml --overwrite
+
+dataset-report: ## Counts, leakage, data-quality and bias report for the small dataset
+	$(PY) scripts/dataset_report.py --dataset kepler_dr25_small
+
+detrend-eval: ## Synthetic transit-preservation benchmark + real-star old/new comparison
+	$(PY) scripts/evaluate_detrending.py --seeds 10 --real-limit 200
+
+profile-bls: ## Profile BLS runtime on one real star
+	$(PY) scripts/profile_bls.py --kepid 5374854
 
 test: ## Unit + integration tests (offline)
 	$(PY) -m pytest

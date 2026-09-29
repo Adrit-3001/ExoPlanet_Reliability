@@ -63,6 +63,18 @@ class ProjectPaths:
     def configs(self) -> Path:
         return self.root / "configs"
 
+    @property
+    def splits(self) -> Path:
+        return self.root / "data" / "splits"
+
+    @property
+    def datasets(self) -> Path:
+        return self.root / "data" / "processed" / "datasets"
+
+    @property
+    def reports(self) -> Path:
+        return self.root / "artifacts" / "reports"
+
 
 def get_paths(root: Path | None = None) -> ProjectPaths:
     return ProjectPaths(root=(root or _find_project_root()))
@@ -79,7 +91,7 @@ class _Strict(BaseModel):
 
 class CatalogConfig(_Strict):
     table: Literal["q1_q17_dr25_koi"] = "q1_q17_dr25_koi"
-    label_rule: Literal["dr25_conservative_v1"] = "dr25_conservative_v1"
+    label_rule: Literal["dr25_clean_v2"] = "dr25_clean_v2"
 
 
 class SelectionConfig(_Strict):
@@ -111,25 +123,28 @@ class LightCurveConfig(_Strict):
         return v
 
 
-class DataConfig(_Strict):
-    name: str
-    catalog: CatalogConfig = CatalogConfig()
-    selection: SelectionConfig = SelectionConfig()
-    lightcurves: LightCurveConfig = LightCurveConfig()
-
-
 # ---------------------------------------------------------------------------
 # Preprocessing / BLS experiment configuration
 # ---------------------------------------------------------------------------
 
 
 class DetrendConfig(_Strict):
+    """Trend removal. ``running_median`` uses ``window_days``; ``robust_spline`` uses
+    ``knot_spacing_days`` and iterative sigma clipping. ``mask_known_transits`` excludes
+    ±``mask_duration_factor``/2 catalog durations around every known KOI transit on the
+    star from the trend fit (the trend is still evaluated there)."""
+
     enabled: bool = True
-    method: Literal["running_median"] = "running_median"
+    method: Literal["running_median", "robust_spline"] = "running_median"
     window_days: float = Field(default=1.5, gt=0)
+    knot_spacing_days: float = Field(default=0.3, gt=0)
+    sigma_lower: float = Field(default=3.0, gt=0)
+    sigma_upper: float = Field(default=3.0, gt=0)
+    max_iter: int = Field(default=3, ge=1)
     gap_days: float = Field(default=0.5, gt=0)
     min_points: int = Field(default=10, ge=1)
     mask_known_transits: bool = False
+    mask_duration_factor: float = Field(default=2.0, gt=0)
 
 
 class PreprocessingConfig(_Strict):
@@ -137,6 +152,70 @@ class PreprocessingConfig(_Strict):
     normalize: Literal["per_quarter_median"] = "per_quarter_median"
     detrend: DetrendConfig = DetrendConfig()
     clip_upper_sigma: float | None = Field(default=5.0, gt=0)
+
+
+class StarSelectionConfig(_Strict):
+    """Which stars enter a dataset build. Stars are the sampling unit; every KOI on a
+    selected star becomes an example (candidates included, flagged as excluded)."""
+
+    seed: int = 42
+    all_eligible: bool = False  # full scale: every star with >= 1 train-eligible KOI
+    n_stars: int = Field(default=0, ge=0)  # sampled stars, in addition to include_kepids
+    include_kepids: list[int] = Field(default_factory=list)
+
+
+class RepresentationConfig(_Strict):
+    """Fixed-length phase-folded views (see docs/data_contract.md §7)."""
+
+    global_bins: int = Field(default=2048, ge=16)
+    local_bins: int = Field(default=201, ge=11)
+    local_half_width_durations: float = Field(default=2.0, gt=0)
+    local_bin_width_durations: float = Field(default=0.16, gt=0)
+    min_valid_points: int = Field(default=1000, ge=1)
+    min_global_coverage: float = Field(default=0.5, ge=0, le=1)
+    min_transit_coverage: float = Field(default=0.5, ge=0, le=1)
+    # Longest masked window (mask_duration_factor x duration) for which masked detrending
+    # was validated on synthetic data; longer windows get example_status detrend_mask_too_long.
+    max_mask_window_days: float = Field(default=2.0, gt=0)
+
+
+class DatasetBuildConfig(_Strict):
+    scale: Literal["smoke", "small", "full"]
+    splits_dir: str = "data/splits"
+    allow_download: bool = True
+    stars: StarSelectionConfig = StarSelectionConfig()
+    preprocessing: PreprocessingConfig
+    representation: RepresentationConfig = RepresentationConfig()
+
+
+class DataConfig(_Strict):
+    name: str
+    catalog: CatalogConfig = CatalogConfig()
+    selection: SelectionConfig = SelectionConfig()
+    lightcurves: LightCurveConfig = LightCurveConfig()
+    dataset: DatasetBuildConfig | None = None
+
+
+class SplitConfig(_Strict):
+    """Star-level (KIC-grouped) train/val/test assignment over the whole catalog snapshot."""
+
+    name: str = "kic_grouped_v1"
+    seed: int = 42
+    label_policy: Literal["dr25_clean_v2"] = "dr25_clean_v2"
+    train_fraction: float = Field(default=0.70, gt=0, lt=1)
+    val_fraction: float = Field(default=0.15, gt=0, lt=1)
+    test_fraction: float = Field(default=0.15, gt=0, lt=1)
+
+    @model_validator(mode="after")
+    def _sum_to_one(self) -> SplitConfig:
+        total = self.train_fraction + self.val_fraction + self.test_fraction
+        if abs(total - 1.0) > 1e-9:
+            raise ValueError(f"split fractions must sum to 1 (got {total})")
+        return self
+
+    @property
+    def fractions(self) -> dict[str, float]:
+        return {"train": self.train_fraction, "val": self.val_fraction, "test": self.test_fraction}
 
 
 class BLSConfig(_Strict):

@@ -1,31 +1,23 @@
 # Architecture
 
-## Data flow (Milestone 1)
+## Data flow
 
 ```text
-NASA Exoplanet Archive (TAP)                     MAST (Lightkurve search, astroquery download)
-          │                                                     │
-  data/archive.py ──► data/raw/catalogs/*.csv + .meta.json      │
-          │                                                     │
-  data/catalog.py  (labels, seeded subset)                      │
-          │                                                     │
-          ▼                                                     ▼
-  data/interim/manifests/<name>_kois.csv ──────────► data/mast.py ──► data/raw/lightcurves/kepler/kic_*/
-                                                                        *_llc.fits + products.json
-                                                                                   │
-                                                  preprocessing/pipeline.py (clean → normalize → detrend → clip)
-                                                                                   │
-                                                  data/processed/lightcurves/kic_*/lightcurve.parquet + preprocessing.json
-                                                          │                            │
-                                               plotting.py (figures)       baselines/bls.py (+ perturbations/)
-                                                          │                            │
-                                               artifacts/figures/          artifacts/experiments/<run>/
-                                                          └───────────┬────────────────┘
-                                                              targets.py (read-only repository)
-                                                                      │
-                                                          apps/api (FastAPI, GET only)
-                                                                      │
-                                                          apps/web (Next.js + Plotly)
+NASA Exoplanet Archive (TAP)
+  └─ data/archive.py ─► data/raw/catalogs/q1_q17_dr25_koi.csv (+ .meta.json, SHA-256)
+        └─ data/labels.py (policy dr25_clean_v2)
+              └─ data/splits.py ─► data/splits/{train,val,test}.csv + split_metadata.json   (once, whole catalog, KIC-grouped)
+                    └─ data/selection.py (stars for smoke/small/full)
+                          └─ data/mast.py ─► data/raw/lightcurves/kepler/kic_*/ (*.fits + products.json)
+                                └─ data/examples.py::build_star (parallel per star)
+                                      preprocessing/pipeline.py: clean → normalise → masked robust spline → clip
+                                      preprocessing/views.py: per KOI → global [2048] + local [201] views, coverage, contamination
+                                └─ data/processed/datasets/<name>/ (examples.parquet, *.npy, lightcurves/, dataset.json)
+                                      ├─ training/dataset.py: KOIDataset / DataLoader → tensors [2, 2048] (+ [2, 201])
+                                      └─ scripts/dataset_report.py → artifacts/reports/<name>/
+
+Milestone 1 path (unchanged): raw FITS → blind running-median preprocessing → data/processed/lightcurves/
+  → baselines/bls.py → artifacts/experiments/<run>/ → targets.py → apps/api → apps/web
 ```
 
 Each arrow is a script in `scripts/`. Every stage reads files written by the previous stage
@@ -37,18 +29,24 @@ and writes its own provenance record. No stage mutates another stage's outputs.
 |---|---|
 | `src/exoreliability/config.py` | Project paths and Pydantic models for every YAML config (validated before any work) |
 | `data/archive.py` | Only module that calls the archive. TAP query building, CSV parsing, snapshot caching with checksum |
-| `data/catalog.py` | Label rule `dr25_conservative_v1`, deterministic stratified subsets, KOI ephemerides |
+| `data/labels.py` | Label policy `dr25_clean_v2` (explicit vocabulary; unknown values raise) |
+| `data/catalog.py` | Deterministic KOI subsets (Milestone 1 manifest), KOI ephemerides |
+| `data/splits.py` | KIC-grouped, stratified, checksummed, overwrite-protected splits over the whole catalog |
+| `data/selection.py` | Star selection per dataset scale from the fixed split assignment |
+| `data/examples.py` | Per-star build (one example per KOI), dataset storage and loading |
 | `data/mast.py` | Product search/selection, cached downloads with per-target manifest, raw FITS reader |
 | `data/cache.py` | Deterministic paths, SHA-256, atomic JSON writes |
 | `data/contracts.py` | `LightCurveData`, `Ephemeris` |
-| `preprocessing/` | `clean`, `normalize`, `detrend`, `phase_fold`, `resample` (each independently tested), `pipeline` (orchestration + persistence) |
+| `preprocessing/` | `clean`, `normalize`, `detrend` (running median; masked robust spline), `phase_fold`, `resample`, `views` (global/local views, coverage, multi-KOI contamination), `pipeline` |
+| `evaluation/detrending.py` | Synthetic transit-preservation benchmark (known true trend) |
+| `training/dataset.py` | `KOIDataset`, missing-bin filling, per-example normalisation, seeded `DataLoader` |
 | `baselines/bls.py` | Wrapper around `astropy.timeseries.BoxLeastSquares`: period grid, parallel periodogram, stats, catalog comparison |
 | `perturbations/` | `Perturbation` protocol + `GaussianNoise` |
 | `experiments/results.py` | Timestamped run folders with `config.yaml` + `environment.json` |
 | `training/reproducibility.py` | Seeding and environment capture (torch-optional) |
 | `targets.py` | Read-only service over local files, used by the API |
 | `plotting.py` | Matplotlib diagnostic figures |
-| `apps/api` | FastAPI: `/health`, `/targets`, `/targets/{id}`, `/targets/{id}/lightcurve`, `/targets/{id}/phase-folded`, `/targets/{id}/bls` |
+| `apps/api` | FastAPI: `/health`, `/targets`, `/targets/{id}`, `/targets/{id}/lightcurve`, `/targets/{id}/phase-folded`, `/targets/{id}/bls`, `/datasets`, `/datasets/{name}` |
 | `apps/web` | Next.js (App Router, strict TS). Client-side fetches to the API, Plotly (`scattergl`) plots |
 
 ## Design rules in effect
@@ -65,12 +63,13 @@ and writes its own provenance record. No stage mutates another stage's outputs.
 
 ## Performance notes
 
-A full-baseline Kepler light curve (~50–65k cadences) with the default grid
-(~480k periods × 6 durations) takes ~5 min in one process and ~50–60 s with 16 processes
-(`bls.n_jobs: 0`). The grid size is fixed by `oversample`, the period range and the
-baseline. `max_grid_size` guards against accidental blow-ups.
+- BLS: ~47 s per full-baseline star with all CPUs, ~4 min single-process. Profiling is in
+  `experiment_protocol.md` §4.
+- Dataset build: ~4 s of CPU per star (spline detrending + views). The 103-star small dataset
+  builds in ~50 s with 8 worker processes (parallelism does not change results).
+- `KOIDataset` memory-maps arrays and prepares each item on the CPU on demand.
 
 ## Not yet present (by design)
 
-Splits, PyTorch dataset/model/training, calibration, the sweep runner, and the prediction
-and experiment endpoints. The target tree in `CLAUDE.md` lists where they will go.
+Models, training loop, calibration, the sweep runner, and the prediction and experiment
+endpoints. The target tree in `CLAUDE.md` lists where they will go.

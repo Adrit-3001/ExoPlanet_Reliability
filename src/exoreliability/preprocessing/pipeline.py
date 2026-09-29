@@ -26,7 +26,7 @@ from exoreliability.data.cache import (
 from exoreliability.data.contracts import Ephemeris, LightCurveData
 from exoreliability.data.mast import read_kepler_fits
 from exoreliability.preprocessing.clean import clean, upper_outlier_mask
-from exoreliability.preprocessing.detrend import running_median_trend
+from exoreliability.preprocessing.detrend import robust_spline_trend, running_median_trend
 from exoreliability.preprocessing.normalize import normalize_per_quarter
 from exoreliability.preprocessing.phase_fold import in_transit_mask
 from exoreliability.training.reproducibility import package_versions
@@ -70,10 +70,12 @@ def preprocess_files(
     """Run the configured preprocessing chain on one target's quarterly FITS files.
 
     Order: per-quarter clean (non-finite + quality bitmask) → per-quarter median
-    normalization → concatenate → running-median detrend (segment-aware) → optional
-    clipping of *upward* outliers on the detrended flux.
+    normalization → concatenate → detrend (``running_median`` or ``robust_spline``,
+    segment-aware) → optional clipping of *upward* outliers on the detrended flux.
 
-    ``ephemerides`` are only used when ``cfg.detrend.mask_known_transits`` is true.
+    ``ephemerides`` are only used when ``cfg.detrend.mask_known_transits`` is true; then
+    every sample within ±``mask_duration_factor``/2 catalog durations of any given
+    ephemeris is excluded from the trend fit (column ``in_known_transit_mask``).
     """
     if not fits_paths:
         raise ValueError("no input files")
@@ -106,19 +108,34 @@ def preprocess_files(
         exclude = np.zeros(len(lc), dtype=bool)
         for eph in ephemerides:
             if eph.duration_hours is not None:
-                exclude |= in_transit_mask(lc.time, eph)
+                exclude |= in_transit_mask(
+                    lc.time, eph, duration_factor=cfg.detrend.mask_duration_factor
+                )
 
-    if cfg.detrend.enabled:
-        trend = running_median_trend(
+    d = cfg.detrend
+    if not d.enabled:
+        trend = np.ones_like(lc.flux)
+    elif d.method == "robust_spline":
+        trend = robust_spline_trend(
             lc.time,
             lc.flux,
-            window_days=cfg.detrend.window_days,
-            gap_days=cfg.detrend.gap_days,
-            min_points=cfg.detrend.min_points,
+            knot_spacing_days=d.knot_spacing_days,
+            gap_days=d.gap_days,
+            min_points=d.min_points,
+            sigma_lower=d.sigma_lower,
+            sigma_upper=d.sigma_upper,
+            max_iter=d.max_iter,
             exclude=exclude,
         )
     else:
-        trend = np.ones_like(lc.flux)
+        trend = running_median_trend(
+            lc.time,
+            lc.flux,
+            window_days=d.window_days,
+            gap_days=d.gap_days,
+            min_points=d.min_points,
+            exclude=exclude,
+        )
     flux_detrended = lc.flux / trend
     err_detrended = lc.flux_err / trend
 
@@ -135,6 +152,9 @@ def preprocess_files(
             "trend": trend[keep],
             "flux_detrended": flux_detrended[keep],
             "flux_err_detrended": err_detrended[keep],
+            "in_known_transit_mask": (exclude if exclude is not None else np.zeros(len(lc), bool))[
+                keep
+            ],
         }
     )
     record: dict[str, Any] = {

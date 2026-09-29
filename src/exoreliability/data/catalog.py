@@ -1,7 +1,6 @@
 """Catalog-level logic: label mapping, subset selection, and KOI lookup.
 
-The label rule implemented here is documented in ``docs/data_contract.md``; change both
-together and bump the rule name if the mapping changes.
+Labels are defined in ``exoreliability.data.labels`` (documented in ``docs/data_contract.md``).
 """
 
 from __future__ import annotations
@@ -11,62 +10,20 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-import numpy as np
 import pandas as pd
 
 from exoreliability.config import ProjectPaths, SelectionConfig
 from exoreliability.data.cache import sha256_file, write_json_atomic
 from exoreliability.data.contracts import Ephemeris
+from exoreliability.data.labels import LABEL_POLICY, NEGATIVE, POSITIVE, apply_label_policy
 
-LABEL_RULE = "dr25_conservative_v1"
-
-POSITIVE = 1
-NEGATIVE = 0
+# Label policy lives in ``exoreliability.data.labels``; re-exported here for callers.
+LABEL_RULE = LABEL_POLICY
 
 
 def assign_labels(catalog: pd.DataFrame) -> pd.DataFrame:
-    """Add derived labels while preserving the original catalog dispositions.
-
-    Rule ``dr25_conservative_v1``:
-
-    * ``planet`` (1): ``koi_disposition == CONFIRMED`` and ``koi_pdisposition == CANDIDATE``
-    * ``false_positive`` (0): ``koi_disposition == FALSE POSITIVE`` and
-      ``koi_pdisposition == FALSE POSITIVE``
-    * excluded (label missing): unresolved candidates and any disagreement between the
-      archive disposition and the DR25 Kepler-data disposition.
-    """
-    required = {"koi_disposition", "koi_pdisposition"}
-    if not required <= set(catalog.columns):
-        raise KeyError(
-            f"catalog lacks disposition columns {sorted(required - set(catalog.columns))}"
-        )
-
-    out = catalog.copy()
-    archive = out["koi_disposition"].astype("string").str.strip().str.upper()
-    kepler = out["koi_pdisposition"].astype("string").str.strip().str.upper()
-
-    is_pos = (archive == "CONFIRMED") & (kepler == "CANDIDATE")
-    is_neg = (archive == "FALSE POSITIVE") & (kepler == "FALSE POSITIVE")
-    is_unresolved = (archive == "CANDIDATE") & (kepler == "CANDIDATE")
-
-    label = pd.Series(pd.NA, index=out.index, dtype="Int8")
-    label[is_pos.fillna(False)] = POSITIVE
-    label[is_neg.fillna(False)] = NEGATIVE
-    out["label"] = label
-    out["label_name"] = np.select(
-        [is_pos.fillna(False), is_neg.fillna(False)], ["planet", "false_positive"], default=""
-    )
-    out["label_rule"] = LABEL_RULE
-    out["exclusion_reason"] = np.select(
-        [
-            is_pos.fillna(False) | is_neg.fillna(False),
-            is_unresolved.fillna(False),
-            archive.isna() | kepler.isna(),
-        ],
-        ["", "unresolved_candidate", "missing_disposition"],
-        default="disposition_conflict",
-    )
-    return out
+    """Apply the current label policy (``dr25_clean_v2``); unknown values raise."""
+    return apply_label_policy(catalog)
 
 
 def select_subset(labelled: pd.DataFrame, selection: SelectionConfig) -> pd.DataFrame:

@@ -21,7 +21,7 @@ class KOI(BaseModel):
     kepler_name: str | None = None
     koi_disposition: str | None = Field(None, description="Exoplanet Archive disposition")
     koi_pdisposition: str | None = Field(None, description="DR25 disposition using Kepler data")
-    label_name: str | None = Field(None, description="Derived label (rule dr25_conservative_v1)")
+    label_name: str | None = Field(None, description="Derived label (policy dr25_clean_v2)")
     exclusion_reason: str | None = None
     koi_score: float | None = None
     koi_period: float | None = Field(None, description="days")

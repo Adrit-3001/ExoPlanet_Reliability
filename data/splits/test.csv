@@ -1,0 +1,1220 @@
+kepid,kepoi_name,split,star_stratum,label,label_name,training_status,exclusion_reason,label_policy,koi_disposition,koi_pdisposition
+1433980,K03924.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+1434395,K07623.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+1718958,K04053.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+1723078,K07624.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+1868404,K07625.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+1995519,K02634.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+2013883,K06258.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2014991,K02178.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2167444,K06261.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2307206,K03549.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2310993,K04938.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+2442359,K03997.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2446134,K07632.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2449053,K07633.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2573108,K03217.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2574543,K04947.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2576107,K03709.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2578017,K04629.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2579043,K02064.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+2581554,K03835.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+2583777,K06284.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2692377,K00299.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+2707097,K06095.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2708286,K04071.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2715135,K01024.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+2716801,K03053.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+2716801,K03053.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+2718778,K02489.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+2721030,K01094.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+2854839,K07639.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2854914,K01113.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+2854914,K01113.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+2860866,K01103.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+2975770,K01788.01,test,mixed,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+2975770,K01788.02,test,mixed,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+2976017,K04849.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+2994092,K06301.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+2997459,K04389.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3097926,K02186.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3098605,K04844.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3103212,K04145.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3103473,K04395.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3117046,K04114.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3118797,K01950.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3120308,K03380.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3120904,K03277.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3124598,K04187.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3127817,K06308.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3128793,K01786.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3129238,K07645.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3130300,K01105.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3130548,K02773.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3219037,K03395.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3219643,K03072.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3228988,K03992.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3232249,K07648.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3233043,K00966.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3236705,K03343.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3239945,K00490.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3239945,K00490.02,test,pos_only,,,excluded,disposition_conflict,dr25_clean_v2,CONFIRMED,FALSE POSITIVE
+3239945,K00490.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3239945,K00490.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3240159,K03515.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3245000,K06314.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3248033,K00006.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3326377,K01830.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3326377,K01830.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3329204,K01095.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3330684,K04533.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3335816,K06323.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3337351,K00965.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3341934,K06327.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3342467,K03278.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3342592,K00402.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3343281,K04860.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3344419,K01181.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3345675,K01772.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3345973,K07652.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3352751,K06330.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3353454,K07654.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3438975,K00300.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3439096,K03509.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3440118,K03876.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3444588,K01202.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3458919,K06337.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3459199,K03725.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3542222,K04137.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3542542,K07658.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3544595,K00069.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3546060,K02126.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3547315,K03736.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3548044,K02194.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3548044,K02194.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3548044,K02194.03,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3548622,K06343.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3550372,K04357.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3553900,K04992.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3556742,K06344.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3559860,K03440.01,test,neg_only,,,excluded,disposition_conflict,dr25_clean_v2,CONFIRMED,FALSE POSITIVE
+3559860,K03440.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3629119,K08242.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3645438,K04385.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3645438,K04385.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3645438,K04385.03,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3654719,K03081.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3663850,K08089.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3755522,K05005.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3758499,K05007.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3758499,K05007.02,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3761319,K06104.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3764714,K03963.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3836522,K05012.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3838486,K00808.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3839488,K01216.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3848083,K07670.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3857860,K04681.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3858884,K06371.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3859042,K07675.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3861611,K02932.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3867794,K04685.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+3869326,K05991.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3954211,K08090.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3962684,K04908.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3966262,K01811.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3966801,K00494.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+3970117,K03556.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+3973549,K05032.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4035667,K02684.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4037163,K03793.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4049131,K00811.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4058881,K03912.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4069213,K06382.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4077252,K05038.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4078157,K01319.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4136466,K01344.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4141376,K00280.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4144238,K05041.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4144873,K07686.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4150611,K03156.01,test,neg_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4150611,K03156.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4150611,K03156.03,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4150611,K03156.04,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4164393,K03413.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4164922,K03864.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4164922,K03864.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4172013,K02386.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4252226,K06396.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4271474,K03324.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4275117,K02776.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4275721,K01342.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4275721,K01342.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4276445,K08092.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4277304,K04774.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4284980,K07690.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4349452,K00244.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4349452,K00244.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4349935,K06403.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4372410,K06408.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4374339,K02987.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4381282,K02922.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4386059,K01340.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4482738,K06418.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4484356,K06420.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4544623,K06423.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4552729,K02691.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4587135,K04680.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4639868,K01326.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4645492,K08095.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4670217,K02560.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4676964,K03069.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4678873,K05075.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4681152,K06436.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4732015,K05076.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4736644,K03330.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4737267,K06117.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4753561,K05996.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4764774,K04825.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4768756,K06451.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4768846,K02077.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4769824,K06452.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4773155,K06453.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4830605,K01660.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4832225,K04013.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4840263,K06457.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4840327,K05093.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4847534,K00499.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4851217,K06460.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4851239,K04851.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4851356,K06462.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4860678,K01602.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4860678,K01602.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4861736,K00634.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4861784,K04278.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4861791,K02870.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4902030,K06467.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4902202,K04717.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4917596,K01973.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4933476,K06122.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4935172,K02962.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+4939346,K01873.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4939346,K01873.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+4947726,K06478.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4948730,K03272.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4950557,K06483.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+4991208,K02951.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5015459,K03923.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5017058,K06486.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5020044,K03802.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5021176,K00447.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5022828,K02138.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5022900,K06492.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5023956,K00233.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5024292,K03579.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5026023,K08252.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5026187,K06499.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5031857,K01573.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5031857,K01573.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5031882,K06501.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5040077,K03065.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5040223,K04354.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5042785,K06507.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5078939,K02438.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5080346,K06509.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5080636,K01843.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5080636,K01843.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5080652,K06510.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5090690,K00636.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5092266,K03045.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5103998,K03660.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5106313,K02878.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5108214,K01924.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5113146,K05127.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5113822,K00638.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5113822,K00638.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5122112,K00552.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5124254,K03099.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5131180,K00641.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5174677,K05131.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5181804,K03638.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5183357,K01669.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5184709,K01670.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5184911,K02719.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5184911,K02719.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5185897,K02693.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5185897,K02693.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5185897,K02693.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5195945,K03940.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5202905,K01932.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5202905,K01932.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5209845,K02883.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5217574,K04151.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5217586,K01592.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5268955,K07557.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5269467,K01672.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5273713,K07722.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5283728,K05149.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5286786,K06554.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5299459,K01576.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5299459,K01576.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5302643,K02746.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5307990,K03228.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5308296,K04750.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5309353,K00643.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5340644,K00503.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5347537,K06566.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5350244,K02555.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5350447,K04008.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5358624,K00830.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5359678,K06569.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5376836,K00182.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5384079,K02011.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5384079,K02011.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5384713,K03444.01,test,neg_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5384713,K03444.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5384713,K03444.03,test,neg_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5384713,K03444.04,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5385773,K06005.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5396122,K01935.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5398002,K03213.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5428668,K02794.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5436013,K02471.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5444384,K01778.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5456979,K06579.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5457326,K04508.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5462901,K06581.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5467102,K03840.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5471574,K02505.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5471769,K06011.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5474613,K01599.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5474613,K01599.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5474733,K01610.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5475712,K06588.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5479973,K06589.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5481426,K03772.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5511081,K01930.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5511081,K01930.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5511081,K01930.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5511081,K01930.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5511659,K04541.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5511659,K04541.02,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5513648,K01962.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5531694,K00647.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5531694,K00647.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5534965,K03557.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5545815,K02452.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5546761,K02160.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5563080,K04220.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5597361,K06601.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5597970,K06014.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5598645,K07560.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5622250,K06608.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5632701,K04213.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5638699,K08256.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5642620,K02882.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5642620,K02882.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5644412,K04194.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5649325,K02676.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5650314,K03731.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5651846,K04827.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5653126,K06612.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5653126,K06612.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5709906,K04744.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5725087,K00033.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5728283,K01011.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5735762,K00148.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5735762,K00148.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5735762,K00148.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5737869,K06624.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5773121,K04002.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5774349,K00557.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5784777,K03916.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5801571,K00225.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5806800,K07741.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5816811,K01042.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5820218,K01048.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5857540,K02448.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5866724,K00085.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5866724,K00085.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5866724,K00085.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5871116,K08258.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5876360,K04279.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5881688,K00843.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5887316,K07747.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5887393,K07748.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5905822,K02801.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5938970,K04016.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5946568,K05211.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5952309,K06636.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5954001,K04633.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5955321,K06140.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5959719,K02498.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5959719,K02498.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5959753,K00226.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5962262,K04661.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+5962716,K06640.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5963591,K05215.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+5966810,K03909.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+5977470,K04550.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6025174,K05224.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6032517,K02070.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6032920,K07757.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6045250,K03948.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6047498,K01013.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6057684,K03972.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6071903,K00306.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6106282,K04087.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6118370,K03458.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6124941,K01058.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6128141,K06665.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6137681,K03932.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6145939,K05243.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6146418,K06021.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6150977,K06022.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6182846,K03591.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6183511,K02542.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6184894,K05245.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6187341,K04216.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6195669,K08262.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6197344,K04463.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6198999,K01687.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6203955,K05249.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6222898,K03896.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6231721,K07773.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6233903,K03609.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6272413,K01129.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6276791,K04477.01,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6276791,K04477.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6286161,K03501.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6289257,K00307.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6289257,K00307.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6292162,K01125.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6292732,K06686.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6305192,K00219.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6310636,K01688.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6342333,K02065.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6362874,K01128.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6363494,K03634.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6364126,K06690.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6387887,K05280.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6390824,K01234.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6421503,K03990.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6422155,K00510.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6422155,K00510.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6422155,K00510.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6422155,K00510.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6432345,K02757.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6437993,K06708.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6442377,K00176.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6442602,K07778.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6448890,K01241.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6448890,K01241.02,test,pos_only,,,excluded,disposition_conflict,dr25_clean_v2,CONFIRMED,FALSE POSITIVE
+6468337,K01620.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6507334,K08122.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6522353,K06723.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6522745,K04574.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6523216,K06725.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6527016,K07783.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6528141,K04340.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6545018,K06729.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6546508,K03613.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6579806,K00967.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6593734,K04722.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6594945,K05300.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6600492,K08125.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6606669,K06741.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6610433,K06744.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6612327,K03270.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6628740,K07571.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6629156,K06747.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6629332,K01227.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6629993,K04392.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6666233,K02306.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6674908,K06149.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6676725,K06755.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6681618,K08265.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6691169,K04890.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6699368,K01694.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6707908,K02014.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6719086,K01357.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6768394,K02086.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6768394,K02086.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6768394,K02086.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6774826,K01376.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6776401,K01847.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6779260,K02678.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6779260,K02678.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6784887,K05328.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6803855,K01695.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6849310,K00864.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6849310,K00864.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6849310,K00864.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6862328,K00865.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6863158,K07793.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6864569,K06780.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6878240,K02681.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6878240,K02681.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6879171,K04188.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6879183,K05333.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6927629,K06789.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6929016,K06790.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6933781,K03737.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6934986,K02294.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+6936966,K07797.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6937529,K04382.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6939670,K06792.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6947164,K03531.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6948480,K02975.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6953281,K08130.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6962018,K06799.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6962901,K07799.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6964929,K02756.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+6967278,K06152.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+6974658,K02925.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7019524,K02877.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7021534,K02267.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7023960,K00187.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7031726,K07806.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7031732,K06805.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7031948,K06807.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7032383,K06811.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7032421,K01747.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7032568,K07576.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7033671,K00670.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7046035,K04424.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7047363,K02432.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7090867,K07810.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7094944,K04859.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7103919,K04310.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7106173,K03083.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7106173,K03083.02,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7106173,K03083.03,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7107567,K05353.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7109675,K00872.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7109675,K00872.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7115291,K03357.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7115463,K06823.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7115597,K06824.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7115785,K00672.01,test,mixed,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7115785,K00672.02,test,mixed,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7115785,K00672.03,test,mixed,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7116043,K06826.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7116282,K07579.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7117549,K04874.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7132542,K03517.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7137213,K03907.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7174351,K01365.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7177553,K06837.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7191646,K04358.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7199774,K01346.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7199935,K06841.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7203194,K06846.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7203326,K07826.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7204233,K05371.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7212184,K02487.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7219906,K06033.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7255336,K00019.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7281399,K06854.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7281411,K04339.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7281616,K06856.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7281699,K06857.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7282154,K07830.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7285757,K03271.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7285757,K03271.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7287415,K01369.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7287677,K04815.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7295235,K00987.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7296086,K01374.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7304449,K01702.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7336754,K06861.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7350067,K06863.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7362450,K07585.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7368137,K04265.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7368664,K00614.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7375795,K01378.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7375795,K01378.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7377200,K07836.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7418173,K03995.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7431665,K06877.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7431709,K07838.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7435780,K04757.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7445445,K00567.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7445445,K00567.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7445445,K00567.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7446631,K02598.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7449541,K02063.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7449554,K02357.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7449554,K02357.02,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7451315,K08268.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7461521,K06882.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7503885,K03417.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7504328,K00458.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7510820,K03303.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7529266,K00680.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7552344,K00888.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7552701,K03994.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7597005,K03961.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7604328,K02458.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7604328,K02458.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7613246,K03062.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7630658,K06895.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7663405,K01519.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7663405,K01519.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7671950,K07846.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7672215,K05411.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7690844,K01508.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7700561,K05414.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7700590,K03750.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7700871,K00088.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7708215,K00894.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7732285,K03023.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7747103,K07847.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7751562,K06912.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7761545,K01472.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7799701,K04903.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7802136,K01449.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7802719,K02247.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7808587,K01533.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7816935,K06921.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7832356,K01456.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7835312,K06164.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7836096,K05435.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7885518,K06928.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7885570,K06929.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7888863,K05440.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7907423,K00899.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7907423,K00899.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7907423,K00899.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7919867,K07858.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7939330,K01581.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7939330,K01581.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7940533,K06167.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7941635,K05449.01,test,neg_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+7941635,K05449.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+7948784,K01968.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7977197,K00459.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7977197,K00459.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+7984047,K01552.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8007174,K05458.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8012732,K08151.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8016691,K03286.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8017703,K00518.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8017703,K00518.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8017703,K00518.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8019043,K06048.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8019043,K06048.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8026752,K00240.01,test,unlabelled_only,,,excluded,disposition_conflict,dr25_clean_v2,CONFIRMED,FALSE POSITIVE
+8030339,K03954.01,test,mixed,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8030339,K03954.02,test,mixed,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8043638,K00460.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8043968,K05469.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8046689,K03092.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8073806,K02411.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8076630,K02235.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8098728,K02008.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8099138,K02338.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8108450,K08273.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8111381,K01550.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8120608,K00571.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8120608,K00571.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8120608,K00571.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8120608,K00571.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8120608,K00571.05,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8128247,K04094.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8145958,K06978.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8153568,K06051.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8165946,K02105.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8168187,K02209.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8168187,K02209.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8176564,K02720.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8192911,K03058.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8196180,K06990.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8196226,K04634.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8197406,K05486.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8216763,K04838.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8216763,K04838.02,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8216763,K04838.03,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8219268,K02133.01,test,neg_only,,,excluded,disposition_conflict,dr25_clean_v2,CONFIRMED,FALSE POSITIVE
+8219268,K02133.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8222813,K01069.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8222813,K01069.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8227661,K02826.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8230809,K06055.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8233326,K04834.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8240861,K06999.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8242350,K05493.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8243263,K07000.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8244173,K03545.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8260218,K01066.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8262210,K01073.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8264097,K03655.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8264402,K04037.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8266276,K01731.01,test,neg_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8266276,K01731.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8278685,K04435.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8283875,K07007.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8295671,K04593.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8302455,K07014.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8302473,K07015.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8308260,K04436.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8320630,K04846.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8320630,K04846.02,test,neg_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8326342,K02680.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8345358,K07021.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8345384,K04399.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8349582,K00122.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8352537,K00420.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8360041,K04854.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8364119,K07024.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8367298,K07025.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8374494,K01133.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8379547,K07029.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8394721,K00152.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8394721,K00152.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8394721,K00152.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8394721,K00152.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8429566,K02511.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8429668,K04449.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8430964,K03078.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8435232,K03833.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8453191,K07043.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8454250,K01254.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8460634,K07887.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8463346,K02529.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8463346,K02529.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8478994,K00245.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8478994,K00245.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8480285,K00691.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8480285,K00691.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8491745,K03555.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8494410,K03685.01,test,mixed,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8494410,K03685.02,test,mixed,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8494542,K02204.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8524110,K07891.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8527297,K08157.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8543278,K07052.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8545603,K07893.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8547140,K01266.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8556077,K02027.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8557374,K00692.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8557374,K00692.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8560475,K05543.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8560804,K02969.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8560861,K07059.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8570333,K02436.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8572936,K02459.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8573193,K04337.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8609450,K01278.01,test,mixed,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8609450,K01278.02,test,mixed,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8609450,K01278.03,test,mixed,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8609450,K01278.04,test,mixed,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8609450,K01278.05,test,mixed,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8611257,K02931.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8613535,K02263.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8613535,K02263.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8613535,K02263.03,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8618226,K07070.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8624520,K01816.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8625813,K03285.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8625925,K00580.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8630788,K01258.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8630788,K01258.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8630788,K01258.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8635938,K03498.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8636434,K03946.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8639155,K07902.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8647295,K04041.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8651551,K03841.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8672910,K00918.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8680979,K01891.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8680979,K01891.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8681833,K02865.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8686097,K00374.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8686761,K07904.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8694309,K04027.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8695779,K06061.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8700506,K07077.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8703129,K02758.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8749844,K07909.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8750043,K02017.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8750094,K07086.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8753657,K00321.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8753657,K00321.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8758161,K07087.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8765560,K03891.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8766268,K08168.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8803882,K02659.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8822421,K06188.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8824737,K03347.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8832512,K01821.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8832676,K08173.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8880123,K03493.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8882847,K03490.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8890783,K00464.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8890783,K00464.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8890996,K07107.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8891684,K05581.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8892721,K01844.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8892910,K00132.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8935810,K01395.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8940961,K07110.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8949316,K03849.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+8950568,K02038.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8950568,K02038.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8950568,K02038.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8950568,K02038.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+8953059,K06062.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8953426,K07113.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8963721,K02233.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8971432,K01384.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+8984706,K06190.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9002237,K01389.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9002278,K00701.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9002278,K00701.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9002278,K00701.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9002278,K00701.04,test,pos_only,,,excluded,disposition_conflict,dr25_clean_v2,CONFIRMED,FALSE POSITIVE
+9002278,K00701.05,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9007918,K07122.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9011825,K02530.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9011877,K05597.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9015738,K01616.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9017682,K01630.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9028474,K03510.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9048161,K00146.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9049697,K05607.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9072639,K04198.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9083470,K04731.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9084832,K08176.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9085563,K03393.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9086251,K02367.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9092504,K02716.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9092504,K02716.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9099950,K04125.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9100953,K04500.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9100953,K04500.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9100953,K04500.03,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9101208,K07134.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9108058,K05615.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9110610,K04839.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9114508,K08178.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9142714,K07928.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9146018,K00584.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9146018,K00584.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9146018,K00584.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9149789,K02874.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9150827,K01408.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9159288,K08280.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9171801,K00933.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9172506,K07141.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9180282,K05636.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9229657,K02491.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9236858,K07149.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9243795,K07150.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9246715,K07601.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9268456,K05647.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9282853,K05651.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9284741,K07153.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9291378,K03776.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9301506,K03047.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9334289,K00934.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9334289,K00934.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9334289,K00934.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9334893,K02298.01,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9334893,K02298.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9334893,K02298.03,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9340460,K08181.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9345819,K04615.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9366617,K04215.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9369366,K02905.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9394762,K05664.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9395024,K02383.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9397900,K07169.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9412462,K07171.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9413156,K04700.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9413156,K04700.02,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9418994,K07172.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9425139,K01411.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9447166,K03296.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9450647,K00110.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9451706,K00271.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9451706,K00271.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9451706,K00271.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9455556,K01396.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9455556,K01396.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9466668,K00939.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9466668,K00939.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9466668,K00939.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9466668,K00939.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9468296,K07176.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9468382,K03409.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9474232,K04760.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9479460,K06205.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9489348,K05686.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9517393,K02076.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9517393,K02076.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9520838,K01866.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9527915,K00165.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9532424,K02941.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9532603,K05688.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9533489,K03783.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9535080,K01509.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9541295,K03132.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9541322,K02089.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9549472,K06206.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9570741,K00586.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9573685,K02057.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9574614,K01745.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9589323,K01488.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9591070,K02825.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9592855,K07196.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9593759,K03800.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9597854,K07201.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9602595,K05700.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9632895,K01451.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9635520,K07205.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9635606,K02535.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9636559,K03618.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9640976,K00712.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9643210,K07952.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9644683,K07214.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9651602,K07215.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9652655,K04578.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9663113,K00179.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9663113,K00179.02,test,pos_only,,,excluded,disposition_conflict,dr25_clean_v2,CONFIRMED,FALSE POSITIVE
+9693006,K02913.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9705459,K01448.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9710326,K00947.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9715939,K03690.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9717943,K02273.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9724984,K00325.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9728465,K02270.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9735426,K01849.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9752973,K03162.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9758032,K03137.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9761199,K01459.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9761882,K00948.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9777724,K04197.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9821151,K03243.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9823457,K00954.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9823457,K00954.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9827094,K08186.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9836149,K01958.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9837578,K02937.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9837685,K02461.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9839081,K06213.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9843517,K03480.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9845909,K03354.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9847239,K05722.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9850957,K02446.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9851142,K03513.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9884104,K00718.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9884104,K00718.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9884104,K00718.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9886224,K03614.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9886661,K01606.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9892856,K03906.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9895709,K01594.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9898017,K04484.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9899217,K03979.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9899410,K07245.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9899449,K08190.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9899577,K07247.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9899583,K07248.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9899630,K04439.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9907129,K03127.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9912977,K07977.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9941425,K07979.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9943435,K02788.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9950612,K00719.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9950612,K00719.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9950612,K00719.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9950612,K00719.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9953736,K07262.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9956082,K04139.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9957351,K03964.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9957627,K00592.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9959093,K07264.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9962595,K05745.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+9964801,K00721.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+9966219,K03401.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9967009,K03462.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9967009,K03462.02,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+9993529,K02644.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10002049,K07270.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10004738,K01598.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10004738,K01598.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10004738,K01598.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10010452,K08287.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10014875,K07983.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10019065,K01721.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10019854,K07272.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10024051,K02409.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10024701,K02002.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10026458,K06076.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10028535,K02493.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10031707,K01827.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10063044,K07280.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10068030,K00529.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10070468,K02628.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10074466,K01917.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10079317,K08194.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10080248,K01722.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10083325,K05761.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10083623,K03921.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10092312,K01823.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10092312,K01823.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10122255,K01086.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10128825,K07986.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10129482,K07288.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10140274,K04334.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10141900,K01082.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10141900,K01082.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10141900,K01082.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10141900,K01082.04,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10147276,K07987.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10153855,K01981.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10156055,K04284.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10187017,K00082.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10187017,K00082.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10187017,K00082.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10187017,K00082.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10187017,K00082.05,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10187017,K00082.06,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10191056,K05774.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10208759,K07295.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10219288,K07993.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10263598,K07995.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10264293,K07301.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10268903,K03773.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10272442,K00734.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10272442,K00734.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10275766,K02810.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10287242,K00735.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10291589,K04754.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10292540,K04689.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10337258,K00333.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10341913,K01172.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10342097,K07314.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10342248,K04315.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10351947,K08205.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10356124,K04832.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10363281,K02726.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10385708,K08206.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10395543,K00531.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10405482,K08009.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10419797,K04073.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10420301,K03257.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10454632,K01877.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10470779,K05796.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10486425,K07334.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10487119,K01635.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10489521,K03625.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10491525,K04589.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10493253,K08210.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10518424,K02188.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10518725,K00336.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10549924,K04214.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10577994,K00475.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10577994,K00475.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10581918,K03807.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10586208,K01308.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10586619,K07345.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10591855,K02845.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10593535,K04204.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10601538,K07348.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10601579,K07349.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10610039,K04577.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10610039,K04577.02,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10614845,K08027.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10615440,K04765.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10616415,K01999.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10616829,K08028.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10646620,K07352.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10651945,K03441.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10657664,K00964.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10659313,K06079.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10661679,K05818.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10663396,K02046.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10666230,K01295.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10669994,K04360.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10670119,K02179.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10670119,K02179.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10676014,K01797.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10682541,K00751.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10685175,K07362.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10686864,K01637.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10686876,K07363.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10686909,K08029.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10713616,K01311.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10724369,K01302.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10730703,K02327.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10735575,K08214.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10749059,K03086.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10779233,K01989.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10790401,K08031.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10793172,K02871.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10793172,K02871.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10793172,K02871.04,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10793576,K03451.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10798605,K03390.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10801951,K08032.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10813132,K02378.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10842192,K02736.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10849244,K07381.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10854768,K01309.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10858785,K04171.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10858803,K04130.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10872983,K00756.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10872983,K00756.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10872983,K00756.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10873260,K00535.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10874215,K02305.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10879038,K01641.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10881457,K03484.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10920086,K05841.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10920813,K07386.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10935993,K03367.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+10963242,K01312.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10978763,K01931.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10978763,K01931.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10978763,K01931.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+10982373,K07395.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+10990886,K00478.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11015108,K00344.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11019739,K07400.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11019987,K03060.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11037818,K05856.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11046025,K01646.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11046458,K00214.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11073351,K00537.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11073656,K02206.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11075429,K02198.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11086270,K00124.01,test,pos_only,,,excluded,disposition_conflict,dr25_clean_v2,CONFIRMED,FALSE POSITIVE
+11086270,K00124.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11090765,K00538.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11098013,K02712.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11099109,K08219.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11100657,K01418.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11124436,K04442.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11125613,K02485.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11125613,K02485.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11125613,K02485.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11151677,K04308.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11152511,K05874.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11187837,K00252.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11188249,K02765.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11192998,K00481.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11192998,K00481.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11192998,K00481.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11197853,K02813.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11232745,K07421.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11233911,K07422.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11236244,K02460.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11253711,K01972.01,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11253711,K01972.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11259686,K00294.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11285870,K03110.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11296205,K08048.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11303815,K02645.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11341314,K05887.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11348086,K08049.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11350634,K08050.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11395587,K00350.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11401822,K02454.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11401869,K07443.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11409698,K07444.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11411639,K07445.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11446424,K08223.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11449696,K08224.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11455484,K03673.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11456405,K04845.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11460018,K00769.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11460462,K02110.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11461844,K02356.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11463211,K00770.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11497958,K01422.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11497958,K01422.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11497958,K01422.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11497958,K01422.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11497958,K01422.05,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11499228,K02109.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11502218,K00970.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11519134,K03419.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11520459,K02226.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11521793,K00352.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11521793,K00352.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11548140,K00256.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11560897,K02365.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11560897,K02365.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11569475,K04029.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11599264,K01417.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11601584,K01831.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11601584,K01831.02,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11601584,K01831.03,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11601584,K01831.04,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11612280,K04304.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11656918,K01945.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11662440,K07469.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11672354,K07471.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11674709,K05928.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11702948,K01465.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11709006,K08061.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11709022,K07474.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11709423,K03001.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11768970,K07478.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11773625,K07479.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11774303,K02269.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11803074,K05932.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11820830,K01728.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11853255,K00778.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11855538,K07485.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11858748,K01471.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11874338,K03464.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11874577,K02779.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11904704,K07489.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11905409,K03312.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11913052,K07491.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11913073,K00011.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11918793,K08069.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11922290,K08070.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11923284,K02026.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11924426,K05944.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11954842,K01530.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+11966253,K02772.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11966668,K08071.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11967004,K07499.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+11967788,K04021.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11967788,K04021.02,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11970050,K04893.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+11972666,K00545.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12016243,K07506.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+12016267,K02590.02,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+12020218,K01507.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+12022718,K07508.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12071037,K02388.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12107008,K04297.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12156174,K03260.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+12157983,K07514.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12164564,K02780.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+12168993,K03105.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+12216278,K02565.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12253474,K01947.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+12254378,K02387.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+12254688,K02384.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12256520,K02264.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+12256520,K02264.02,test,pos_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+12257999,K02577.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+12265150,K05963.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12268220,K07518.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12306808,K07521.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12306808,K07521.02,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12405333,K03009.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+12407623,K04370.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12470041,K06251.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12470530,K07536.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12602568,K01583.01,test,pos_only,1,planet,train_eligible,,dr25_clean_v2,CONFIRMED,CANDIDATE
+12644769,K01611.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12645057,K04497.01,test,unlabelled_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
+12885212,K02184.01,test,neg_only,0,false_positive,train_eligible,,dr25_clean_v2,FALSE POSITIVE,FALSE POSITIVE
+12885212,K02184.02,test,neg_only,,,excluded,unresolved_candidate,dr25_clean_v2,CANDIDATE,CANDIDATE
